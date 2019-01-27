@@ -58,13 +58,13 @@ public class MainMenu {
     private void renderTitle(SpriteBatch spriteBatch) {
         AssetLoader.shadow.draw(
                 spriteBatch,
-                "Flappy Bird",
+                "Jumpy Bird",
                 (136 / 2f) - (50),
                 21
         );
         AssetLoader.font.draw(
                 spriteBatch,
-                "Flappy Bird",
+                "Jumpy Bird",
                 (136 / 2f) - (50 - 1),
                 20
         );
